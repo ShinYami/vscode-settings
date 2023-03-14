@@ -1,0 +1,52 @@
+{
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": true,
+    "explorer.compactFolders": false,
+    "emmet.includeLanguages": {
+        "twig": "html",
+        "vue-html": "html"
+    },
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "scss"
+    ],
+    "[scss]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[javascript]": {
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.suggest.showKeywords": false
+    },
+    "extensions.ignoreRecommendations": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.exclude": {
+        "USE_GITIGNORE": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/coverage": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/.build": true,
+        "**/.gh-pages": true
+    },
+    "editor.renderWhitespace": "boundary",
+    "javascript.validate.enable": false,
+    "npm.runSilent": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnPaste": false,
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.smoothScrolling": true,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "editor.tabSize": 4
+}
